@@ -1,0 +1,16 @@
+/* VARIÁVEIS */
+
+:root{
+    --primary-color: #4CAF4F;
+}
+
+/* Criando classe para os botões */
+.green-btn{
+    background: var(--primary-color);
+    color: #FFF;
+    font-weight: 400;
+}
+.green-btn:hover, .green-btn:focus{
+    background: #38853b;
+    color: #FFF;
+}
