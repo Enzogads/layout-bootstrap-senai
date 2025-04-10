@@ -14,3 +14,7 @@
     background: #38853b;
     color: #FFF;
 }
+
+.green-text{
+    color: var(--primary-color);
+}
