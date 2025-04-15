@@ -18,3 +18,13 @@
 .green-text{
     color: var(--primary-color);
 }
+
+
+
+.tesla, .business{
+    background-color: #F5F7FA;
+}
+
+.space-margin-bottom{
+    margin-bottom: 50px;
+}
