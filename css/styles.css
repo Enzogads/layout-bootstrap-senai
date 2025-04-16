@@ -28,3 +28,49 @@
 .space-margin-bottom{
     margin-bottom: 50px;
 }
+
+.card .card-image{
+    width: 368px;
+    height: 287px;
+}
+
+.descricao-conteudo{
+    transform: translateY(-50%);
+    background-color: #F5F7FA;
+    border-radius: 8px;
+    width: 317px;
+    height: 176px;
+    text-align: center;
+    justify-self: center;
+    box-shadow: 0 8px 16px #ABBED166;
+}
+
+.descricao-conteudo h4{
+    color: #717171;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 16px;
+    height: 84px;
+    margin-bottom: 24px;
+}
+
+.descricao-conteudo a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--primary-color);
+}
+
+.get-demo{
+    background-color: #F5F7FA;
+}
+
+.get-demo h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+footer{
+    background-color: #263238;
+}
+
