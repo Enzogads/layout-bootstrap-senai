@@ -74,3 +74,46 @@ footer{
     background-color: #263238;
 }
 
+footer .container .col-md-4 p{
+    color: #F5F7FA;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+footer .btn-do-airplanezinho, .btn-do-airplanezinho:hover, .btn-do-airplanezinho:focus{
+    border-radius: 8px;
+    background: #515B60;
+    transform: translateX(-40px);
+    outline: none;
+    box-shadow: none;
+    
+}
+
+footer .input-do-airplanezinho, .input-do-airplanezinho:hover, .input-do-airplanezinho:focus{
+    border-radius: 8px;
+    background: #515B60;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+footer .container .col-md-8 h3{
+    color: #FFF;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+footer .container .col-md-8 a{
+    text-decoration: none;
+    color: #F5F7FA;
+    size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 8px;
+    display: block;
+}
+
