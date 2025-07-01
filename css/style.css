@@ -1,0 +1,166 @@
+/* Reset geral */
+* {
+    font-family: "Inria Serif", serif;
+}
+
+/* Variáveis */
+:root {
+    --primary-color: #5E9C49;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .main-text {
+        font-size: 48px; /* Reduz o tamanho da fonte em telas menores */
+    }
+    #subtext-main-page {
+        font-size: 18px; /* Reduz o tamanho da fonte do subtema */
+        margin-top: 10px;
+    }
+    .meeting-project .row {
+        --bs-gutter-x: 0; /* Remove espaçamento horizontal em telas menores */
+        --bs-gutter-y: 1rem; /* Pequeno espaço vertical */
+    }
+    .capoeira .row {
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 1rem; /* Pequeno espaço vertical */
+    }
+    .capoeira .content-block {
+        padding: 1rem;
+    }
+    .meet-img {
+        max-height: 300px; /* Ajusta altura da imagem */
+    }
+}
+
+/* NAV BAR */
+.nav {
+    margin-right: 39px;
+    margin-left: 171px;
+}
+.nav .nav-link {
+    color: #FFF;
+    font-size: 38px;
+    font-family: inria-serif;
+    margin-right: 36px;
+    font-weight: 400;
+}
+
+/* Banner Inicial */
+.background-banner {
+    background-image: url(../images/Backgorund.png);
+    min-height: 100vh; /* Usa a altura da viewport */
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem de fundo */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui o conteúdo verticalmente */
+}
+
+.main-text-container {
+    height: 500px;
+}
+
+.main-text {
+    color: #FFF;
+    font-size: 64px;
+    font-family: "La Belle Aurore", cursive;
+}
+
+.main-text span {
+    border-bottom: 3px solid #FFF;
+}
+
+#subtext-main-page {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    text-align: start; /* Centraliza o texto */
+    margin-top: 20px; /* Reduz a margem */
+    padding-bottom: 20px; /* Adiciona padding para evitar corte */
+}
+
+/* Conheça o projeto */
+.green-title {
+    color: var(--primary-color);
+}
+
+.meeting-project {
+    background-color: #C5DEBF;
+    padding: 50px 0; /* Adiciona padding para espaçamento */
+}
+
+.meeting-project h1 {
+    padding: 89px;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.meet-text {
+    font-size: 32px;
+    color: #434343;
+    padding-left: 10px; /* Ajuste para espaçamento interno */
+    padding-right: 10px;
+    margin: 0;
+}
+
+.meet-img {
+    max-width: 100%; /* Corrige para largura máxima */
+    height: auto; /* Remove altura fixa para manter proporção */
+    object-fit: cover;
+    display: block;
+    margin: 0; /* Remove margens */
+    width: 100%; /* Garante que ocupe toda a largura */
+}
+
+.meeting-project .col-md-4 {
+    padding-left: 0; /* Remove padding da coluna para largura máxima */
+    padding-right: 0;
+}
+
+.meeting-project .row {
+    --bs-gutter-x: 1.5rem; /* 24px de espaçamento horizontal */
+    --bs-gutter-y: 0; /* Remove espaçamento vertical */
+}
+
+/* Nova seção */
+
+.capoeira{
+    background-color: #C5DEBF;
+}
+
+.capoeira h1 {
+    padding: 89px;
+    font-weight: bold;
+    font-size: 64px;
+    color: var(--primary-color);
+}
+
+.capoeira .card {
+    background-color: #5E9C49;
+    border-radius: 50px;
+    box-shadow: none;
+}
+
+.capoeira .card p {
+    font-size: 54px;
+    color: #FFF;
+}
+
+.capoeira .card .btn {
+    font-size: 30px;
+    border:none;
+    background-color: #FFF;
+    border-radius: 25px;
+    height: 80px;
+    color: #579948;
+    font-weight: bold;
+    
+}
+
+.capoeira .card .btn:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 0.5s;
+}

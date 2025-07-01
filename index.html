@@ -1,437 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nexcent</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lili Capoeira</title>
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=La+Belle+Aurore&display=swap" rel="stylesheet">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-    <!-- NAV BAR -->
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand" href="#"> <img src="images/logo.svg" alt="Icone da logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Feature</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonial</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ</a>
-                        </li>
-                    </ul>
-
-                    <ul class="login navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn green-btn" href="#">Sign up</a>
-                        </li>
-                    </ul>
-
-
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-
-        <section class="banner-full">
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/banner-full.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/banner-full.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/banner-full.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
-
-        <section class="clients py-5">
-            <h2 class="text-center">Our Clients</h2>
-            <p class="text-center">We have been working with some Fortune 500+ clients</p>
-            <div class="container">
-                <div class="d-flex justify-content-between">
-                    <div>
-                        <img src="images/clients/logo-1r.svg" alt="">
-                    </div>
-
-                    <div>
-                        <img src="images/clients/logo-2r.svg" alt="">
-                    </div>
-
-                    <div>
-                        <img src="images/clients/logo-3r.svg" alt="">
-                    </div>
-
-                    <div>
-                        <img src="images/clients/logo-4r.svg" alt="">
-                    </div>
-
-                    <div>
-                        <img src="images/clients/logo-5r.svg" alt="">
-                    </div>
-
-                    <div>
-                        <img src="images/clients/logo-6r.svg" alt="">
-                    </div>
-
-                    <div>
-                        <img src="images/clients/logo-7r.svg" alt="">
-                    </div>
-                </div>
-        </section>
-
-        <!-- fim: section clients -->
-
-        <section class="community py-5">
-            <h2 class="text-center">Manage your entire community in a single system</h2>
-            <p class="text-center">Who is Nextcent suitable for?
-            </p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 text-center">
-                        <img src="images/icons/Icon-1.svg" alt="Ícone">
-                        <h3>Membership Organisations</h3>
-                        <p>Our membership management software provides full automation of membership renewals and
-                            payments</p>
-                    </div>
-
-                    <div class="col-md-4 text-center">
-                        <img src="images/icons/Icon-2.svg" alt="Ícone">
-                        <h3>National Associations</h3>
-                        <p>Our membership management software provides full automation of membership renewals and
-                            payments</p>
-                    </div>
-
-                    <div class="col-md-4 text-center">
-                        <img src="images/icons/Icon-3.svg" alt="Ícone">
-                        <h3>Clubs And Groups</h3>
-                        <p>Our membership management software provides full automation of membership renewals and
-                            payments</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="pixelgrade">
-            <div class="container">
-                <div class="p-5 mb-4 rounded-3">
-                    <div class="container-fluid py-5">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="images/image-pixelgrade.png" alt="imagem banner da seção pixelgrade.">
-                            </div>
-                            <div class="col-md-8">
-                                <h4 class="display-5">The unseen of spending three years at Pixelgrade</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum.
-                                    Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem
-                                    sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium
-                                    auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum
-                                    pulvinar odio.</p>
-                                <button class="btn btn-lg green-btn" type="button">Learn More</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="business p-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 mt-4">
-                        <h4 class="fs-3 fw-bold">Helping a local <br>
-                            <span class="green-text">business reinvent itself</span>
-                        </h4>
-                        <p>We reached here with our hard work and dedication</p>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="d-flex">
-                                        <div>
-                                            <img src="images/icons/people.png" alt="">
-                                        </div>
-                                        <div>
-                                            <h3 class="big-number fw-bold">2.245,341</h3>
-                                            <p>Members</p>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="d-flex">
-
-
-                                        <div>
-                                            <img src="images/icons/click.png" alt="">
-                                        </div>
-                                        <div>
-                                            <h3 class="big-number">828,867</h3>
-                                            <p>Event Booking</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="d-flex">
-                                        <div>
-                                            <img src="images/icons/hands.png" alt="">
-                                        </div>
-                                        <div>
-                                            <h3 class="big-number fw-bold">46,328</h3>
-                                            <p>Clubs</p>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="d-flex">
-
-
-                                        <div>
-                                            <img src="images/icons/wallet.png" alt="">
-                                        </div>
-                                        <div>
-                                            <h3 class="big-number">1,926,436</h3>
-                                            <p>Payments</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
-
-            </div>
-        </section>
-
-        <section class="how-to-design">
-            <div class="container">
-                <div class="p-5 mb-4">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="images/how-to-design-image.png" alt="imagem banner da seção how-to-design">
-                            </div>
-
-                            <div class="col-md-8">
-                                <h4 class="display-5">How to design your site footer like we did</h4>
-                                <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
-                                <button class="btn btn-lg green-btn" type="button">Learn More</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="tesla">
-            <div class="container">
-                <div class="p-3">
-                        <div class="row align-items-center">
-                        
-                        <div class="col-md-4">
-                            <img src="images/tesla.png" alt="">
-                        </div>
-
-                        <div class="col-md-8">
-                            <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
-                            <h5 class="display-5 green-text fw-semibold fs-4">Tim Smith</h4>
-                            <p  class="fs-5 fw-light space-margin-bottom">British Dragon Boat Racing Association</p>
-
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <img src="images/clients/logo-1r.svg" alt="">
-                                </div>
-                                    
-                                <div>
-                                    <img src="images/clients/logo-2r.svg" alt="">
-                                </div>
-    
-                                <div>
-                                    <img src="images/clients/logo-3r.svg" alt="">
-                                </div>
-    
-                                <div>
-                                    <img src="images/clients/logo-4r.svg" alt="">
-                                </div>
-    
-                                <div>
-                                    <img src="images/clients/logo-5r.svg" alt="">
-                                </div>
-    
-                                <div>
-                                    <img src="images/clients/logo-6r.svg" alt="">
-                                </div>
-                                
-                                <a class="green-text fw-semi-bold fs-5 text-decoration-none" href="#">Meet All Costumers  <img src="images/arrow.png"></a>
-                            </div>
-                            
-
-                        </div>
-                        </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="cards mt-5">
-            <div class="container text-center ">
-                <h3>Caring is the new marketing</h3>
-                <p>The Nexcent blog is the best place to read about the latest membership insights,<br>
-                     trends and more. See who's joining the community<br>
-                      read about how our community are increasing their membership income and lot's more.​</p>
-            </div>
-
-            <div class="container d-flex justify-content-center">
-                <div class="card-image">
-                    <img class="" src="images/cards/card-image1.png">
-                    <div class="descricao-conteudo">
-                        <h4>Creating Streamlined Safeguarding Processes with OneRen</h4>
-                        <a class="text-decoration-none" href="#">Readmore  <span><img src="images/arrow.png"></span></a>
-                    </div>
-                </div>
-
-                <div class="card-image px-4">
-                    <img class="" src="images/cards/card-image2.png">
-                    <div class="descricao-conteudo">
-                        <h4>What are your safeguarding responsibilities and how can you manage them?</h4>
-                        <a class="text-decoration-none" href="#">Readmore  <span><img src="images/arrow.png"></span></a>
-                    </div>
-                </div>
-
-                <div class="card-image">
-                    <img width="" src="images/cards/card-image3.png">
-                    <div class="descricao-conteudo">
-                        <h4>Revamping the Membership Model with Triathlon Australia</h4>
-                        <a class="text-decoration-none" href="#">Readmore  <span><img src="images/arrow.png"></span></a>
-                    </div>
-                </div>
-                
-            </div>
-        </section>
-
-        <section class="get-demo">
-            <div class="container text-center pt-4 pb-4">
-                <h1>Pellentesque suscipit <br> fringilla libero eu.</h1>
-                <button class="btn btn-lg green-btn mt-4">Get a Demo <img src="images/white-arrow.png"></button>
-            </div>
-        </section>
-
-    </main>
-
-    <footer>
-        <div class="container p-5 d-flex">
-            <div class="col-md-4">
-                <img src="images/logo-footer.png" alt="">
-                <p class="mt-4">Copyright © 2020 Nexcent ltd.</p>
-                <p class="mt-1">All rights reserved</p>
-
-                <div class="mt-4 d-flex"> 
-                    <a href="#"> <img  class="mx-2" src="images/icons-footer/insta-icon.png" alt=""></a>
-                    <a href="#"> <img class="mx-2"  src="images/icons-footer/basket-icon.png" alt=""></a>
-                    <a href="#"> <img class="mx-2" src="images/icons-footer/twitter-icon.png" alt=""></a>
-                    <a href="#"> <img class="mx-2" src="images/icons-footer/youtube-icon.png" alt=""></a>
-                </div>
-            </div>
-
-            <div class="col-md-8">
+    <section class="background-banner">
+        <header>
+            <nav class="navbar">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h3>Company</h3>
-                                <a href="#">About us</a>
-                                <a href="#">Blog</a>
-                                <a href="#">Contact us</a>
-                                <a href="#">Pricing</a>
-                                <a href="#">Testimonials</a>
-                            </div>
-                        
+                    <a class="navbar-brand" href="#">
+                        <img src="/images/Logo.png" alt="liliLogo" width="98" height="98">
+                    </a>
+                    <nav class="nav">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        <a class="nav-link" href="#">Sobre nós</a>
+                        <a class="nav-link" href="#">Galeria</a>
+                        <a class="nav-link" href="#">Novidades</a>
+                        <a class="nav-link" href="#">Contato</a>
+                    </nav>
+                </div>
+            </nav>
+        </header>
+        <div class="container main-text-container d-flex justify-content-center align-items-center">
+            <h1 class="text-center main-text"><span>Projeto Social</span><br> Lili Capoeira</h1>
+        </div>
+        <div class="container-fluid">
+            <p id="subtext-main-page">"Mais que um jogo, a capoeira é uma filosofia <br> de resistência."</p>
+        </div>
+    </section>
 
-                        <div class="col-md-4">
-                            <h3>Support</h3>
-                            <a href="#">Help center</a>
-                            <a href="#">Terms of service</a>
-                            <a href="#">Legal</a>
-                            <a href="#">Privacy policy</a>
-                            <a href="#">Status</a>
-                        </div>
-
-                        <div class="col-md-4">
-                            <h3>Stay to update</h3>
-                            <div class="input-group mb-3">
-                                <input type="text" class="input-do-airplanezinho" placeholder="Your email adress" aria-label="Recipient's username" aria-describedby="button-addon2">
-                                <button class="btn btn-do-airplanezinho" type="button" id="button-addon2"><img src="images/airplanezinho.png"></button>
-                              </div>
-                        </div>
-                    </div>
-                    </div>
+    <section class="meeting-project">
+        <div class="container">
+            <h1 class="green-title text-center">Conheça o Projeto</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row gx-4 justify-content-md-center">
+                <div class="col-md-4">
+                    <p class="meet-text">“Este projeto nasceu da minha filha, que tem paralisia cerebral. Naquela época, eu havia me separado da minha ex-esposa e, como a guarda ficou com ela, eu a via poucas vezes. Então, sempre que nos encontrávamos, íamos à pracinha do condomínio. Lá, fazíamos acrobacias e gingados. Logo, outras crianças começaram a se juntar, querendo aprender também.</p>
+                    <img src="images/imagem-paragrafo1.png" alt="" class="img-fluid meet-img">
+                </div>
+                <div class="col-md-4 offset-md-2">
+                    <p class="meet-text">Os 'caboquinhos' vinham todos os sábados de manhã em frente à minha casa, onde tínhamos combinado de pular no trampolim… E foi assim que surgiu o projeto Lili Capoeira. O projeto cresceu, e eu tive muitos alunos. Infelizmente, a pandemia chegou e interrompeu tudo. Agora, estou recomeçando o projeto aqui na Barra do Sambaqui, com cerca de 10 a 15 alunos. É um recomeço para um projeto que já tem 9 anos de história.”</p>
+                    <img src="images/imagem-paragrafo2.png" alt="" class="img-fluid meet-img">
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-        crossorigin="anonymous"></script>
+    <section class="capoeira">
+        <div class="container">
+            <h1 class="text-center">Capoeira</h1>
+                <div class="card">
+                    <div class="row p-5">
+                        <p class="mb-4 col-md-7">Saiba mais sobre a história da capoeira e seus benefícios para saúde.</p>
+                        <img class="col-md-5" src="images/capoeiraIlustração.png" alt="">
+                    </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                <button class="btn">História da Capoeira</button>
+                                </div>
+    
+                                <div class="col-md-4">
+                                <button class="btn">Saúde na Capoeira</button>
+                                </div>
+    
+                                <div class="col-md-4">
+                                <button class="btn">Mais Fotos</button>
+                                </div>
+                            </div>
+                </div>
+        </div>
+    </section>
 </body>
-
 </html>
