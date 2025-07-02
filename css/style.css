@@ -189,3 +189,28 @@
     font-size: 64px;
     color: var(--primary-color);
 }
+
+.colaboradores {
+    padding-bottom: 250px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #C4C4C4;
+}
+
+.footer-reference{
+    font-size: 26px;
+    color: #FFF;
+    padding-top: 50px;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+footer .credits{
+    color: #FFF;
+    font-size: 18px;
+}
