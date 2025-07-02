@@ -64,8 +64,9 @@
     justify-content: space-between; /* Distribui o conteúdo verticalmente */
 }
 
-.active{
+.nav .nav-link.active{
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .main-text-container {
@@ -179,9 +180,12 @@
 }
 
 .colaboradores{
-    color: #C5DEBF;
+    background-color: #C5DEBF;
 }
 
 .colaboradores h1{
+    padding: 89px;
+    font-weight: bold;
+    font-size: 64px;
     color: var(--primary-color);
 }
