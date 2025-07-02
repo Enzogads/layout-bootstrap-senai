@@ -35,10 +35,18 @@
 
 /* NAV BAR */
 
+.navbar{
+    /* background-color: #5E9C49; */
+    background-color: rgba( 94, 156, 73, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+}
+
 .nav {
     margin-right: 39px;
     margin-left: 171px;
-    
 }
 
 .nav :hover{
@@ -115,6 +123,7 @@
     padding-left: 10px; /* Ajuste para espaçamento interno */
     padding-right: 10px;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .meet-img {
@@ -124,6 +133,7 @@
     display: block;
     margin: 0; /* Remove margens */
     width: 100%; /* Garante que ocupe toda a largura */
+    
 }
 
 .meeting-project .col-md-4 {
@@ -157,6 +167,7 @@
 .capoeira .card p {
     font-size: 54px;
     color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .capoeira .card .btn {
@@ -169,14 +180,16 @@
     color: #579948;
     font-weight: bold;
     margin-bottom: 20px;
-    box-shadow: 0px 5px #333;
+    box-shadow: 0px 4px 10px #333;
     font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s all ease-in-out;
 }
 
 .capoeira .card .btn:hover {
     background-color: #333;
     color: #fff;
-    transition: 0.5s;
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
 }
 
 .colaboradores{
@@ -190,6 +203,15 @@
     color: var(--primary-color);
 }
 
+.colaboradores img{
+    transition: all ease-in 0.2s;
+}
+
+.colaboradores img:hover{
+    transform: scale(1.1);
+    transition: all ease-in 0.2s;
+}
+
 .colaboradores {
     padding-bottom: 250px;
 }
@@ -198,6 +220,7 @@
 
 footer{
     background-color: #C4C4C4;
+    padding-bottom: 60px;
 }
 
 .footer-reference{
@@ -208,9 +231,15 @@ footer{
 
 footer p{
     margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer .credits{
     color: #FFF;
     font-size: 18px;
+    padding-bottom: 50px;
+}
+
+footer .container{
+    border-bottom: 1px solid #FFF;
 }
