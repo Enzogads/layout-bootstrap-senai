@@ -185,3 +185,9 @@
 .colaboradores h1{
     color: var(--primary-color);
 }
+
+.website-purpose h1 {
+    padding: 89px;
+    font-weight: bold;
+    font-size: 64px;
+}
