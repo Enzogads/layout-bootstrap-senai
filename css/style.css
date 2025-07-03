@@ -282,12 +282,12 @@
 }
 
 .colaboradores img{
-    transition: all ease-in 0.2s;
+    transition: all ease-in 0.1s;
 }
 
 .colaboradores img:hover{
-    transform: scale(1.1);
-    transition: all ease-in 0.2s;
+    transform: scale(1.02);
+    transition: all ease-in 0.1s;
 }
 
 .colaboradores {
@@ -322,9 +322,27 @@ footer .container{
     border-bottom: 1px solid #FFF;
 }
 
+.contact h1{
+    padding: 89px;
+    font-weight: bold;
+    font-size: 64px;
+}
 
+.contact h2{
+    font-weight: bold;
+    font-size: 40px;
+}
 
-
+.contact-cards a{
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #579948;
+    width: 540px;
+    height: 70px;
+    padding: 21px;
+    border-radius: 50px;
+}
 
 /* PAGE GALLERY */
 
