@@ -114,6 +114,8 @@
     padding-left: 10px; /* Ajuste para espaçamento interno */
     padding-right: 10px;
     margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .meet-img {
@@ -190,4 +192,60 @@
     padding: 89px;
     font-weight: bold;
     font-size: 64px;
+}
+
+.website-purpose h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.website-initiative h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.website-purpose .meet-text {
+    font-size: 32px;
+    color: #434343;
+    padding-left: 10px; /* Ajuste para espaçamento interno */
+    padding-right: 10px;
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.card-about-us{
+    width: 387px;
+    height: 260px;
+    border-radius: 50px;
+    background-color: #579948;
+    transition: all ease-in 0.3s;
+}
+
+.card-about-us:hover{
+    transition: all ease-in 0.3s;
+    transform: scale(1.1);
+}
+
+.cards-about-us .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-about-us h3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards-text{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 10px; /* Ajuste para espaçamento interno */
+    padding-right: 10px;
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Arial, Helvetica, sans-serif;
 }
