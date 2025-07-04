@@ -67,18 +67,31 @@
 }
 
 .to-top{
-    margin-left: 1430px;
-    margin-top: 648px;
+    margin-left: 1267px;
+    margin-top: 642px;
     width: 70px;
     height: 70px;
     background-color: #579948;
     position: fixed;
     z-index: 100000;
     border-radius: 100px;
+    transition: all ease-in 0.1s;
+}
+
+.to-top:hover{
+    transition: all ease-in 0.1s;
+    transform: scale(1.05);
+    background-color: #364d30;
 }
 
 .to-top img{
     width: 50px;
+}
+
+.to-top a{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 /* Banner Inicial */
