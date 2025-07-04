@@ -9,6 +9,16 @@ body {
     font-family: 'Inria Serif', serif;
     color: #333;
     background-color: #f8f9fa;
+    transition: transform 0.3s ease; /* Adiciona transição suave para slide */
+}
+
+/* Classes para animação de transição de página */
+body.slide-in {
+    transform: translateX(0);
+}
+
+body.slide-out {
+    transform: translateX(-100%);
 }
 
 /* Variáveis */
@@ -66,9 +76,10 @@ body {
 
 .nav-link {
     color: var(--text-light) !important;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     font-weight: 400;
     transition: color 0.3s ease;
+    text-decoration: none;
 }
 
 .nav-link:hover, .nav-link.active {
@@ -79,7 +90,7 @@ body {
 /* Banner */
 .background-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/layout-bootstrap-senai/images/Background.png') no-repeat center center/cover;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,6 +101,9 @@ body {
     flex-grow: 1;
     display: flex;
     align-items: center;
+}
+.main-text-container span{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .main-text {
@@ -124,7 +138,7 @@ body {
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease, opacity 0.3s ease;
 }
 
 .to-top:hover {
@@ -165,6 +179,10 @@ body {
     padding: 2rem 1rem;
 }
 
+.capoeira h1{
+    color: var(--primary-color);
+}
+
 .capoeira .card {
     background-color: var(--primary-color);
     border-radius: 20px;
@@ -173,7 +191,7 @@ body {
 }
 
 .capoeira .card p {
-    font-size: 1.2rem;
+    font-size: 2.5rem;
     color: var(--text-light);
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 1rem;
@@ -187,7 +205,7 @@ body {
 .capoeira .card .btn {
     background-color: var(--text-light);
     color: var(--primary-color);
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 0.5rem 1rem;
     border-radius: 12px;
@@ -207,6 +225,10 @@ body {
 .colaboradores {
     background-color: var(--secondary-color);
     padding: 2rem 1rem;
+}
+
+.colaboradores h1{
+    color: var(--primary-color);
 }
 
 .colaboradores img {
